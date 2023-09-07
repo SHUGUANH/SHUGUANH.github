@@ -1,0 +1,241 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+}
+
+/* 顶部样式 */
+.top-1{
+	background-image:linear-gradient(90deg,#1a2e4a 0,#409890 100%);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    z-index: 999;
+}
+
+.top-1 .dianying{
+	font-size: 22px;
+	color: #FFFFFF;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+	align-items: center;
+    display: flex;
+}
+.top-1 .sousuo{
+	margin-left: 575px;
+}
+/*内容*/
+.box-1{
+    width: 640px;
+	height: 1000px;
+	position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+	overflow: auto;
+    z-index: 1;
+}
+/*选项*/
+.box ul{
+	display: inline-block;
+	height: 50px;
+}
+.box-1 .ul-1{
+	height: 50px;
+    width: 640px;
+	margin-right: 60px 40px;
+	position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .ul-2{
+	height: 50px;
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .ul-3{
+	height: 50px;
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .ul-4{
+	height: 50px;
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .ul-5{
+	height: 50px;
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .ul-6{
+	height: 50px;
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 li {
+	display: inline;
+	width: 30px;
+	height: 16px;
+	font-size: 15px;
+	font-weight:500;
+	border-radius:8px; 
+	margin: 10px 8px 0px 50px;
+	
+}
+.box-1 a{
+	display: inline-block;
+    background: #F1F1F1;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+	border-radius: 14px;
+
+}
+.box-1 a:link{
+	text-decoration: none;
+	color: #0EFF00;
+	font-weight: bold;
+}
+.box-1 a:visited{
+	text-decoration: none;
+	color: #0EFF00;
+}
+
+/*电影图*/
+.box-1 .tx1{
+    width: 640px;
+	margin-left: 5px;
+	margin-right: 50px;
+	position: fixed;
+    top: 310px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+
+.box-1 .tx1 div:nth-child(1){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/1.png") no-repeat;
+	display: inline-block;
+}
+.box-1 .tx1 div:nth-of-type(2){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/2.png") no-repeat;
+	display: inline-block;
+
+}
+.box-1 .tx1 div:nth-child(3){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/3.png") no-repeat;
+	display: inline-block;
+}
+.box-1 .tx1 ul{
+	height: 80px;
+    width: 640px;
+	position: fixed;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .tx1 ul li{
+	display: inline;
+	width: 120px;
+	margin-left: 80px;
+}
+/*电影图2*/
+.box-1 .tx2{
+    width: 640px;
+	margin-right: 50px;
+	position: fixed;
+    top: 610px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+
+.box-1 .tx2 div:nth-child(1){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/4.png") no-repeat ;
+	display: inline-block;
+}
+.box-1 .tx2 div:nth-of-type(2){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/5.png") no-repeat;
+	display: inline-block;
+
+}
+.box-1 .tx2 div:nth-child(3){
+	width: 195px;
+	height: 260px;
+	margin-left: 10px;
+	background: url("img/vip.png") right top no-repeat,url("img/6.png") no-repeat;
+	display: inline-block;
+}
+.box-1 .tx2 ul{
+	height: 80px;
+    width: 640px;
+	position: fixed;
+    top: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.box-1 .tx2 ul li{
+	display: inline;
+	width: 120px;
+	margin-left: 80px;
+}
